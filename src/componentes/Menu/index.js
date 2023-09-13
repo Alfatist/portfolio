@@ -1,3 +1,4 @@
+import MenuLink from "../MenuLink";
 import "./Menu.css";
 import { Link, useLocation } from "react-router-dom";
 
@@ -7,12 +8,8 @@ const Menu = () => {
   return (
     <header>
       <nav className="navegacao">
-        <Link className="link" href="/">
-          Início
-        </Link>
-        <Link className="link" href="/sobremim">
-          Sobre Mim
-        </Link>
+        <MenuLink to="/">Inicio</MenuLink>
+        <MenuLink to="/sobremim">Sobre Mim</MenuLink>
       </nav>
     </header>
   );
