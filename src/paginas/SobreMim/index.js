@@ -1,3 +1,5 @@
-export default function SobreMim() {
-  return <h1>Sobre mim...</h1>;
-}
+const SobreMim = () => {
+  return <ul className={"posts"}></ul>;
+};
+
+export default SobreMim;
