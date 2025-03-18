@@ -19,7 +19,7 @@ function showLanguagePopupPt() {
       opacity: 0;
       animation: fadeIn ${seconds}s ease-in-out;">
       <span>Gostaria de ir para a página em português?</span>
-      <button onclick="window.location.href='/pt/'" style="
+      <button onclick="window.location.href='pt/'" style="
         background: #f39c12; color: white; border: none; padding: 6px 12px; 
         border-radius: 5px; cursor: pointer; display: flex; align-items: center;">Sim</button>
       <button onclick="this.parentElement.remove()" style="

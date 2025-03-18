@@ -19,7 +19,7 @@ function showLanguagePopupEn() {
       opacity: 0;
       animation: fadeIn ${seconds}s ease-in-out;">
       <span>Would you like to go to English page?</span>
-      <button onclick="window.location.href='../'" style="
+      <button onclick="window.location.href='/'" style="
         background: #f39c12; color: white; border: none; padding: 6px 12px; 
         border-radius: 5px; cursor: pointer; display: flex; align-items: center;">Yes</button>
       <button onclick="this.parentElement.remove()" style="
