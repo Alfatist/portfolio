@@ -2839,6 +2839,17 @@ input, select, textarea {
 			background: #fff;
 		}
 
+    @media screen and (prefers-color-scheme: dark) {
+      .main.style1{
+        background: #535353;
+        color: white;
+      }
+
+      .main.style1 h2, .main.style1 a, .main.style1 h3{
+        color: #d8d8d8 !important
+      }
+    }
+
 		.main.style2 {
 			background-color: #333;
 			color: rgba(255, 255, 255, 0.75);
