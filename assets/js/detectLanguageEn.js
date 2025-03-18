@@ -11,6 +11,7 @@ function showLanguagePopupEn() {
   const seconds = 5;
   popup.innerHTML = `
     <div style="
+      z-index: 10;
       position: fixed; bottom: 20px; right: 20px; 
       background: rgba(0, 0, 0, 0.8); color: #fff; padding: 12px 20px;
       border-radius: 8px; font-size: 14px; 
